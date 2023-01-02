@@ -25,6 +25,7 @@ def Copy():
     pyperclip.copy(pass_str.get())
 
 
+
 # creating Labels
 head_label = Label(root, text="Generate The Strongest Password For Social Your Account", font='Times 15 bold', bg='thistle', fg='darkviolet').pack(pady=10)
 pass_label = Label(root, text='Select Your Password Length', font='Times 15', bg='thistle', fg='blueviolet').pack(pady=15)
